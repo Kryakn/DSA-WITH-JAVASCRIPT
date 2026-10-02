@@ -47,3 +47,20 @@
 //     }
 // }
 
+// let a =Number(prompt("enter number: "));
+// for(let i=3;i<=Math.sqrt(a);i++){
+//     if(a%i==0){
+//         console.log("non prime");
+//     }
+//     else{
+//         console.log("prime");
+//     }
+// }
+
+let a=1234;
+let sum=0;
+while(a>0){
+    sum=sum*10+a%10;
+    a=Math.floor(a/10);
+}
+console.log(sum);
