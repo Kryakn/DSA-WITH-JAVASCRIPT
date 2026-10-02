@@ -57,10 +57,35 @@
 //     }
 // }
 
-let a=1234;
-let sum=0;
-while(a>0){
-    sum=sum*10+a%10;
-    a=Math.floor(a/10);
-}
-console.log(sum);
+//Reverse a number
+// let a=1234;
+// let sum=0;
+// while(a>0){
+//     sum=sum*10+a%10;
+//     a=Math.floor(a/10);
+// }
+// console.log(sum);
+
+//Strong Number
+
+// let a=40585;
+// let og=a;
+// let sum=0;
+// while(a>0){
+//     let k=a%10;
+//     let fact=1;
+//     for(let i=1;i<=k;i++){
+//         fact=fact*i;
+//     }
+//     sum=sum+fact;
+//     a=Math.floor(a/10);
+// }
+// if(sum==og){
+//     console.log("strong number");
+// }
+// else{
+//     console.log("not an strong number");
+// }
+
+
+
